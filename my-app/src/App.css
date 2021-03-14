@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  background: #CDC9C9;
+}
+
+div.div-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+
+  align-items: center;
+  background-color: white;
+}
+
+div.div-container button{
+  margin-top: 15px;
+  width: 50px;
+  background-color: green;
+  color: white;
+}
+
+div.div-container button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+div.div-table {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 800px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+div.div-table table {
+  border: solid 1px black;
+  width: 600px;
+}
